@@ -1,0 +1,79 @@
+/* nav */
+
+.nav__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.nav__avatar {
+  width: 58px;
+  object-fit: contain;
+  padding: 50px 22px 0px 0px;
+  
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 33px;
+  /* background-color: #111; */
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+
+div.profil {
+	font-size: 25px;
+	padding: 0 0 20px 1100px;
+	color: #fff ;
+	font-weight: bold;
+}
+img.profil {
+	height: 85px;
+	padding: 30px 0 0 1100px;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+
+.menu {
+  position: fixed;
+  top: 125px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  /* background-color: #111; */
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+div.menu {
+	color: #fff;
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+div.menu1 {
+	text-align: center;
+}
+a.menu1 {
+	margin: 0px 150px 0px 150px;
+}
+div.filmserie {
+	top: 10px;
+	text-align: center;
+	margin: 10px 0 0 0;
+
+}
+a.filmserie {
+	margin: 0px 150px 0px 150px;
+
+}
